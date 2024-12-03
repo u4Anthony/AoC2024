@@ -4,7 +4,7 @@ list_one = []
 list_two = []
 
 # read the input and split it into two lists
-with open('./input_one.txt', 'r') as f:
+with open('./input.txt', 'r') as f:
     for line in f:
         values = ' '.join(line.split()).split(' ')
         list_one.append(int(values[0]))
