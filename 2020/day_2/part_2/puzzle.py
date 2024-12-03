@@ -1,4 +1,4 @@
-f = open("../password.txt", "r")
+f = open("../input.txt", "r")
 passwords = []
 for i in f:
     passwords.append(i[:-1])
